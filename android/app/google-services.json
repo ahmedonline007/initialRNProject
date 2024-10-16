@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023874064561",
+    "project_id": "ytecommerce-39671",
+    "storage_bucket": "ytecommerce-39671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023874064561:android:d481555e0ef6c2185f0290",
+        "android_client_info": {
+          "package_name": "com.initialrnproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLqpKuEpi3jFekZNc2J5jY9r8FWvd2rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

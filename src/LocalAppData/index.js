@@ -1,0 +1,8 @@
+export const CategoryLS = [
+  {id: 1, name: 'Category1'},
+  {id: 2, name: 'Category2'},
+  {id: 3, name: 'Category3'},
+  {id: 4, name: 'Category4'},
+  {id: 5, name: 'Category5'},
+  {id: 6, name: 'Category6'},
+];
