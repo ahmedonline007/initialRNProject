@@ -2,7 +2,7 @@ import {StatusBar, StyleSheet, Text, View, Image, Alert} from 'react-native';
 import React, {useState} from 'react';
 import InputFieldComp from '../../components/InputFieldComp';
 import RoundButtonComp from '../../components/RoundButtonComp';
-import auth from '@react-native-firebase/auth';
+// import auth from '@react-native-firebase/auth';
 
 const SignUpScreen = () => {
   const [email, setEmail] = useState();
@@ -18,22 +18,22 @@ const SignUpScreen = () => {
       Alert.alert('Please Fill Password');
       return;
     }
-    auth()
-      .createUserWithEmailAndPassword(email, password)
-      .then(data => {})
-      .catch(err => {
-        Alert.alert('Error', err.message, [
-          {
-            text: 'Cancel',
-            onPress: () => console.log('Cancel'),
-            style: 'cancel',
-          },
-          {
-            text: 'Ok',
-            onPress: () => console.log('Ok Pressed'),
-          },
-        ]);
-      });
+    // auth()
+    //   .createUserWithEmailAndPassword(email, password)
+    //   .then(data => {})
+    //   .catch(err => {
+    //     Alert.alert('Error', err.message, [
+    //       {
+    //         text: 'Cancel',
+    //         onPress: () => console.log('Cancel'),
+    //         style: 'cancel',
+    //       },
+    //       {
+    //         text: 'Ok',
+    //         onPress: () => console.log('Ok Pressed'),
+    //       },
+    //     ]);
+    //   });
   }
 
   return (
